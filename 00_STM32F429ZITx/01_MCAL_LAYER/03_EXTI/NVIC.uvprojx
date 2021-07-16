@@ -384,11 +384,6 @@
           <GroupName>SRC</GroupName>
           <Files>
             <File>
-              <FileName>NVIC.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\NVIC.c</FilePath>
-            </File>
-            <File>
               <FileName>EXTI.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\EXTI.c</FilePath>
@@ -399,14 +394,14 @@
               <FilePath>.\main.c</FilePath>
             </File>
             <File>
-              <FileName>STD_TYPES.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\STD_TYPES.h</FilePath>
-            </File>
-            <File>
               <FileName>GPIO.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\GPIO_Driver\GPIO.c</FilePath>
+              <FilePath>..\01_GPIO\GPIO.c</FilePath>
+            </File>
+            <File>
+              <FileName>NVIC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\02_NVIC\NVIC.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -414,19 +409,9 @@
           <GroupName>INC</GroupName>
           <Files>
             <File>
-              <FileName>NVIC_Cfg.h</FileName>
+              <FileName>STD_TYPES.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\NVIC_Cfg.h</FilePath>
-            </File>
-            <File>
-              <FileName>NVIC_Private.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\NVIC_Private.h</FilePath>
-            </File>
-            <File>
-              <FileName>NVIC.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\NVIC.h</FilePath>
+              <FilePath>..\..\00_LIBRARY_LAYER\00_STD_TYPES\STD_TYPES.h</FilePath>
             </File>
             <File>
               <FileName>EXTI_Cfg.h</FileName>
@@ -444,21 +429,6 @@
               <FilePath>.\EXTI.h</FilePath>
             </File>
             <File>
-              <FileName>GPIO_Priv.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\GPIO_Driver\GPIO_Priv.h</FilePath>
-            </File>
-            <File>
-              <FileName>GPIO_Cfg.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\GPIO_Driver\GPIO_Cfg.h</FilePath>
-            </File>
-            <File>
-              <FileName>GPIO.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\GPIO_Driver\GPIO.h</FilePath>
-            </File>
-            <File>
               <FileName>RCC.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\RCC.h</FilePath>
@@ -467,6 +437,36 @@
               <FileName>RCC_CONFIG.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\RCC_CONFIG.h</FilePath>
+            </File>
+            <File>
+              <FileName>GPIO.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\01_GPIO\GPIO.h</FilePath>
+            </File>
+            <File>
+              <FileName>GPIO_Cfg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\01_GPIO\GPIO_Cfg.h</FilePath>
+            </File>
+            <File>
+              <FileName>GPIO_Priv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\01_GPIO\GPIO_Priv.h</FilePath>
+            </File>
+            <File>
+              <FileName>NVIC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\02_NVIC\NVIC.h</FilePath>
+            </File>
+            <File>
+              <FileName>NVIC_Cfg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\02_NVIC\NVIC_Cfg.h</FilePath>
+            </File>
+            <File>
+              <FileName>NVIC_Private.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\02_NVIC\NVIC_Private.h</FilePath>
             </File>
           </Files>
         </Group>

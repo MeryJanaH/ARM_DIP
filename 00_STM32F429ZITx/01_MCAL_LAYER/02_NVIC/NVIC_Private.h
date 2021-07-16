@@ -2,7 +2,6 @@
 /********Author : Meryem ANNOUAR******/
 /********Date : 28/05/21 *************/
 /*************************************/
-#include "STD_TYPES.h"
 
 #ifndef _NVIC_PRIVATE_H
 #define _NVIC_PRIVATE_H
@@ -25,7 +24,7 @@
 #define NVIC_IABR0 	(*((volatile uint32*)(NVIC_BASE_ADDRESS + 0x300)))
 #define NVIC_IABR1 	(*((volatile uint32*)(NVIC_BASE_ADDRESS + 0x304)))
 
-#define NVIC_IPR    (((volatile uint32*)(NVIC_BASE_ADDRESS + 0x400)))
+#define NVIC_IPR    (((volatile uint8*)(NVIC_BASE_ADDRESS + 0x400)))
 
 #define SCB_BASE_ADDRESS 	0xE000E
 

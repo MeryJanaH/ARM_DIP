@@ -3,8 +3,9 @@
 /********Date : 28/05/21 *************/
 /*************************************/
 
-#include "NVIC_Private.h"
-#include "NVIC.h"
+#include "C:/Users/merye/Documents/Keil_workspace/00_STM32F429ZITx/01_MCAL_LAYER/02_NVIC/NVIC_Private.h"
+#include "C:/Users/merye/Documents/Keil_workspace/00_STM32F429ZITx/01_MCAL_LAYER/02_NVIC/NVIC.h"
+#include "C:/Users/merye/Documents/Keil_workspace/00_STM32F429ZITx/00_LIBRARY_LAYER/00_STD_TYPES/STD_TYPES.h"
 
 void vNVIC_SetEnable(uint8 u8IntNumber)
 {

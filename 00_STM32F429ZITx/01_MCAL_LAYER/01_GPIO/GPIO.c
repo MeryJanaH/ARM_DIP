@@ -1,6 +1,6 @@
 
-#include "GPIO_Priv.h"
-#include "GPIO.h"
+#include "C:/Users/merye/Documents/Keil_workspace/00_STM32F429ZITx/01_MCAL_LAYER/01_GPIO/GPIO_Priv.h"
+#include "C:/Users/merye/Documents/Keil_workspace/00_STM32F429ZITx/01_MCAL_LAYER/01_GPIO/GPIO.h"
 
 void vGPIO_PinSetMode(uint8 Port_Name, uint8 Pin_Number, uint8 Mode)
 {

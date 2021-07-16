@@ -381,27 +381,42 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Source Group 1</GroupName>
+          <GroupName>MCAL_SRC</GroupName>
           <Files>
             <File>
               <FileName>RCC.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\RCC_FILES\RCC.c</FilePath>
+              <FilePath>.\RCC.c</FilePath>
             </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Application</GroupName>
+          <Files>
             <File>
-              <FileName>RCC.h</FileName>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>MCAL_INC</GroupName>
+          <Files>
+            <File>
+              <FileName>STD_TYPES.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\RCC_FILES\RCC.h</FilePath>
+              <FilePath>..\..\00_LIBRARY_LAYER\00_STD_TYPES\STD_TYPES.h</FilePath>
             </File>
             <File>
               <FileName>RCC_CONFIG.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\RCC_FILES\RCC_CONFIG.h</FilePath>
+              <FilePath>.\RCC_CONFIG.h</FilePath>
             </File>
             <File>
-              <FileName>STD_TYPES.h</FileName>
+              <FileName>RCC.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\RCC_FILES\STD_TYPES.h</FilePath>
+              <FilePath>.\RCC.h</FilePath>
             </File>
           </Files>
         </Group>

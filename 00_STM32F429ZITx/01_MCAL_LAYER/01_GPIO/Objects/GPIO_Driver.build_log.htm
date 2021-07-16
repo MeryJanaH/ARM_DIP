@@ -21,13 +21,26 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
 Dialog DLL:      TCM.DLL V1.48.0.0
  
 <h2>Project:</h2>
-C:\Users\merye\Desktop\mina_whatss\Nouveau dossier\6-Session6[GPIO]-20210427T091644Z-001\6-Session6[GPIO]\GPIO_Driver\GPIO_Driver\GPIO_Driver.uvprojx
-Project File Date:  05/14/2021
+C:\Users\merye\Documents\Keil_workspace\00_STM32F429ZITx\01_MCAL_LAYER\01_GPIO\GPIO_Driver.uvprojx
+Project File Date:  07/09/2021
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
-Build target 'Target 1'
-".\Objects\GPIO_Driver.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(35): warning:  #1-D: last line of file ends without a newline
+  }
+main.c: 1 warning, 0 errors
+compiling RCC.c...
+compiling GPIO.c...
+GPIO.c(193): warning:  #1-D: last line of file ends without a newline
+  }
+GPIO.c: 1 warning, 0 errors
+assembling startup_stm32f429xx.s...
+compiling system_stm32f4xx.c...
+linking...
+Program Size: Code=1500 RO-data=444 RW-data=0 ZI-data=1632  
+".\Objects\GPIO_Driver.axf" - 0 Error(s), 2 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -53,12 +66,12 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.4.0
 
    * Component: Keil::Device:Startup:2.6.3
+      Source file:   MDK\Device\Source\ARM\STM32F42xxx_43xxx_OPT.s
       Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
       Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
-      Source file:   MDK\Device\Source\ARM\STM32F42xxx_43xxx_OPT.s
       Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f429xx.s
       Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:04
 </pre>
 </body>
 </html>

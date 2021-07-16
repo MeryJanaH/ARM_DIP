@@ -1,7 +1,7 @@
 #ifndef GPIO_H
 #define GPIO_H
 
-#include "STD_TYPES.h"
+#include "C:/Users/merye/Documents/Keil_workspace/00_STM32F429ZITx/00_LIBRARY_LAYER/00_STD_TYPES/STD_TYPES.h"
 
 /* USER Macros*/
 #define GPIOA				0
@@ -54,10 +54,6 @@ uint8 u8GPIO_PinReadData(uint8 Port_Name, uint8 Pin_Number);
 void vGPIO_PinWriteData(uint8 Port_Name, uint8 Pin_Number, uint8 Value);
 void vGPIO_PinLock(uint8 Port_Name, uint8 Pin_Number);
 void vGPIO_PinSetAltFn(uint8 Port_Name, uint8 Pin_Number, uint8 Alt_Value);
-
-
-
-
 
 
 

@@ -261,7 +261,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\RCC.c</PathWithFileName>
+      <PathWithFileName>..\00_RCC\RCC.c</PathWithFileName>
       <FilenameWithoutPath>RCC.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -317,7 +317,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\STD_TYPES.h</PathWithFileName>
+      <PathWithFileName>..\..\00_LIBRARY_LAYER\00_STD_TYPES\STD_TYPES.h</PathWithFileName>
       <FilenameWithoutPath>STD_TYPES.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -329,7 +329,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\RCC.h</PathWithFileName>
+      <PathWithFileName>..\00_RCC\RCC.h</PathWithFileName>
       <FilenameWithoutPath>RCC.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -341,7 +341,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\RCC_CONFIG.h</PathWithFileName>
+      <PathWithFileName>..\00_RCC\RCC_CONFIG.h</PathWithFileName>
       <FilenameWithoutPath>RCC_CONFIG.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>

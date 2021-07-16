@@ -9,7 +9,7 @@
 #define EXTI_BASE_ADDRESS   0x40013C00
 #define SYSCFG_BASE_ADDRESS 0x40013800
 
-#include "STD_TYPES.h"
+#include "C:/Users/merye/Documents/Keil_workspace/00_STM32F429ZITx/00_LIBRARY_LAYER/00_STD_TYPES/STD_TYPES.h"
 
 #define EXTI_IMR 	  			(*((volatile uint32*)(EXTI_BASE_ADDRESS + 0x00)))
 #define EXTI_RTSR 				(*((volatile uint32*)(EXTI_BASE_ADDRESS + 0x08)))

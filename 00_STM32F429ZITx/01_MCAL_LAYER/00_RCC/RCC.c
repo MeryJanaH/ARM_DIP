@@ -35,7 +35,7 @@ void vRCC_SetSYSCLK(ClKSrcName_t ClkSrc, HSESrcName_t HSESRC, PLLSrcName_t PLLSr
 				RCC_CFGR &=~(1U<<1);
 				break;
 				default: break;
-
+				
 			}
 		break;
 

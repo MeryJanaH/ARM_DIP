@@ -401,7 +401,7 @@
             <File>
               <FileName>RCC.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\RCC.c</FilePath>
+              <FilePath>..\00_RCC\RCC.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -426,17 +426,17 @@
             <File>
               <FileName>STD_TYPES.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\STD_TYPES.h</FilePath>
+              <FilePath>..\..\00_LIBRARY_LAYER\00_STD_TYPES\STD_TYPES.h</FilePath>
             </File>
             <File>
               <FileName>RCC.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\RCC.h</FilePath>
+              <FilePath>..\00_RCC\RCC.h</FilePath>
             </File>
             <File>
               <FileName>RCC_CONFIG.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\RCC_CONFIG.h</FilePath>
+              <FilePath>..\00_RCC\RCC_CONFIG.h</FilePath>
             </File>
           </Files>
         </Group>

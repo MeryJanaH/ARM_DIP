@@ -1,8 +1,8 @@
 
-#include "GPIO_Priv.h"
-#include "GPIO.h"
-#include "RCC.h"
-#include "NVIC.h"
+#include "C:/Users/merye/Documents/Keil_workspace/00_STM32F429ZITx/01_MCAL_LAYER/01_GPIO/GPIO_Priv.h"
+#include "C:/Users/merye/Documents/Keil_workspace/00_STM32F429ZITx/01_MCAL_LAYER/01_GPIO/GPIO.h"
+#include "C:/Users/merye/Documents/Keil_workspace/00_STM32F429ZITx/01_MCAL_LAYER/00_RCC/RCC.h"
+#include "C:/Users/merye/Documents/Keil_workspace/00_STM32F429ZITx/01_MCAL_LAYER/02_NVIC/NVIC.h"
 #include "EXTI.h"
 
 volatile uint8 u8GlobalFlag = 0;
@@ -27,12 +27,22 @@ int main(void)
 	
 	/* Enable INT from NVIC and set pending flag using NVIC */
 	/* Set enable EXTI0 */
-	vNVIC_SetEnable(6);
-	vNVIC_SetPending(6);
+	/************mthd1************/
+	//vNVIC_SetEnable(6);
+	//vNVIC_SetPending(6);
 	
 	/* Enable INT from NVIC and enable INT from EXTI pendig flag should be set when we press on the button */
-	/* Set enable EXTI0 / Mthd 2 */
-
+	/* Set enable EXTI0 PA0/ Mthd 2 */
+	/************mthd2************/
+	
+	//in nested vectored interrupt (NVIC) Reference Man // position of EXTI0 is 6
+	vNVIC_SetEnable(6);
+	//enable line
+	vEXTI_NotMask(0);
+	//set on rizing edge
+	vEXTI_EventType(0,RIZING_EVENT);
+	vEXTI_SetPort(0,GPIOA);
+ 
 	
 	while(1)
 	{
