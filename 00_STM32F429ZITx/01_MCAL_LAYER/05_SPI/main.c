@@ -24,8 +24,7 @@ int main(void)
   vGPIO_PinSetMode(0, 0, 01);
 	vGPIO_PinSetAltFn(0, 0, 0101);
 
-	//NVIC initialize
-	
+	//NVIC initialization
 	
 	
 	
