@@ -407,6 +407,11 @@
               <FileType>1</FileType>
               <FilePath>..\00_RCC\RCC.c</FilePath>
             </File>
+            <File>
+              <FileName>NVIC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\02_NVIC\NVIC.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -451,6 +456,21 @@
               <FileName>RCC_CONFIG.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00_RCC\RCC_CONFIG.h</FilePath>
+            </File>
+            <File>
+              <FileName>NVIC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\02_NVIC\NVIC.h</FilePath>
+            </File>
+            <File>
+              <FileName>NVIC_Cfg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\02_NVIC\NVIC_Cfg.h</FilePath>
+            </File>
+            <File>
+              <FileName>NVIC_Private.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\02_NVIC\NVIC_Private.h</FilePath>
             </File>
           </Files>
         </Group>
