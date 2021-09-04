@@ -11,7 +11,7 @@ executing. */
 static const char *pcTextForTask1 = "FTask 1 is running\r\n";
 static const char *pcTextForTask2 = "STask 2 is running\r\n";
 void vTask( void *pvParameters );
- 
+
 int main( void )
 {
 uart_init (9600,16000000UL);
