@@ -1,0 +1,23 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Disassemble mode]
+mode=0
+[Breakpoints]
+Bp0=_ "STD_CODE" "0x00000090" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\main.c}.62.1" 1 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\main.c}.62.1" 1 0 0 0 "" 0 ""
+Count=3
+[LMIFTDIDriver]
+LMI_ResetMode=0x00000001
+LMI_LeaveTargetRunning=0x00000000
+[Aliases]
+Count=0
+SuppressDialog=0
