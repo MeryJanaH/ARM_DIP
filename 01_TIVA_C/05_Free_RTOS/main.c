@@ -4,6 +4,7 @@
 #include "FreeRTOS.h"
 #include "uart.h"
 #include "task.h"
+#include "FreeRTOSConfig.h"
 
 /* Define the strings that will be passed in as the task parameters. These are
 defined const and not on the stack to ensure they remain valid when the tasks are
